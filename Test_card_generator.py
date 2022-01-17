@@ -92,7 +92,7 @@ for q in range(number_of_questions):
 		block += block
 	question_blocks.append(block)
 
-# Sfuffle the question blocks in place to randomize order.
+# Shuffle the question blocks in place to randomize order.
 for q in range(number_of_questions):
 	random.shuffle(question_blocks[q])
 
